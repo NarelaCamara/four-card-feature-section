@@ -34,16 +34,18 @@ function App() {
 
   return (
     <div className="flex flex-col flex-nowrap items-center m-8 min-w-[330px] md:min-w-[768px]">
-      <h2 className="font-[Poppins] text-[#6A7178] text-2xl font-extralight ">
-        Reliable, efficient delivery
-      </h2>
-      <h2 className="text-[#4D4F62] font-[Poppins] font-bold text-2xl pb-4">
-        Powered by Technology
-      </h2>
-      <p className="text-[#6A7178] font-[Poppins] font-normal text-base text-center">
-        Our Artificial Intelligence powered tools use millions of project data
-        points to ensure that your project is successful
-      </p>
+      <div className="flex flex-col flex-nowrap items-center max-w-[540px]">
+        <h2 className="font-[Poppins] text-[#6A7178] text-2xl font-extralight ">
+          Reliable, efficient delivery
+        </h2>
+        <h2 className="text-[#4D4F62] font-[Poppins] font-bold text-2xl pb-4">
+          Powered by Technology
+        </h2>
+        <p className="text-[#6A7178] font-[Poppins] font-normal text-base text-center">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
       <div className="grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-10 ">
         <div className=" lg:col-start-1  lg:row-start-2">
           <Card {...cards[0]} /> {/**verde */}
