@@ -46,33 +46,18 @@ function App() {
           points to ensure that your project is successful
         </p>
       </div>
-      <div className="grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-10 ">
-        <div className=" lg:col-start-1  lg:row-start-2">
-          <Card {...cards[0]} /> {/**verde */}
+      <div className="grid md:grid-cols-3 md:grid-rows-3 md:gap-0 lg:grid-cols-3 lg:grid-rows-3 lg:gap-10">
+        <div className="md:col-start-2 lg:col-start-1 lg:row-start-2">
+          <Card {...cards[0]} /> {/** verde */}
         </div>
-        <div className=" lg:col-start-2 lg:row-start-1 lg:relative lg:top-[12.5rem]">
-          <Card {...cards[1]} /> {/**rojo */}
+        <div className="md:col-start-1 md:row-start-2 md:relative md:left-[7rem] lg:left-[0rem] lg:col-start-2 lg:row-start-1 lg:relative lg:top-[12.5rem]">
+          <Card {...cards[1]} /> {/** rojo */}
         </div>
-        <div className="lg:col-start-2 lg:row-start-3 lg:relative lg:bottom-[12.5rem]">
-          <Card {...cards[2]} /> {/**amarillo */}
+        <div className="md:col-start-3 md:row-start-2 md:relative md:right-[7rem] lg:right-[0rem] lg:col-start-2 lg:row-start-3 lg:relative lg:bottom-[12.5rem]">
+          <Card {...cards[2]} /> {/** amarillo */}
         </div>
-        <div className="lg:col-start-3 lg:row-start-2  ">
-          <Card {...cards[3]} /> {/**azul */}
-        </div>
-      </div>
-
-      <div className=" grid md:grid-cols-3 md:grid-rows-3 md:gap-0 ">
-        <div className=" md:col-start-2">
-          <Card {...cards[0]} />
-        </div>
-        <div className=" md:col-start-1 md:row-start-2 md:relative md:left-[7rem]">
-          <Card {...cards[1]} />
-        </div>
-        <div className="md:col-start-3 md:row-start-2 md:relative md:right-[7rem]">
-          <Card {...cards[2]} />
-        </div>
-        <div className="md:col-start-2 md:row-start-3">
-          <Card {...cards[3]} />
+        <div className="md:col-start-2 md:row-start-3 lg:col-start-3 lg:row-start-2">
+          <Card {...cards[3]} /> {/** azul */}
         </div>
       </div>
     </div>
