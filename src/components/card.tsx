@@ -4,7 +4,7 @@ export const Card = ({ title, color, text, icon }: ICard) => {
   return (
     <div className="my-8">
       <div
-        className={`p-8 my-2 rounded-lg border-t-4 drop-shadow-xs ${color} shadow-lg`}
+        className={`p-8 my-2 rounded-lg border-t-4 drop-shadow-xs ${color} shadow-lg h-60`}
       >
         <h2 className=" font-[Poppins] font-bold text-xl text-[#4D4F62]">
           {title}
