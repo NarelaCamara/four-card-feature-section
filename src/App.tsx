@@ -48,10 +48,10 @@ function App() {
         <div className=" lg:col-start-1  lg:row-start-2">
           <Card {...cards[0]} /> {/**verde */}
         </div>
-        <div className=" lg:col-start-2 lg:row-start-1 lg:relative lg:top-[12rem]">
+        <div className=" lg:col-start-2 lg:row-start-1 lg:relative lg:top-[12.5rem]">
           <Card {...cards[1]} /> {/**rojo */}
         </div>
-        <div className="lg:col-start-2 lg:row-start-3 lg:relative lg:bottom-[12rem]">
+        <div className="lg:col-start-2 lg:row-start-3 lg:relative lg:bottom-[12.5rem]">
           <Card {...cards[2]} /> {/**amarillo */}
         </div>
         <div className="lg:col-start-3 lg:row-start-2  ">
