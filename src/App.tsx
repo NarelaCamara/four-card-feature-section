@@ -46,7 +46,7 @@ function App() {
           points to ensure that your project is successful
         </p>
       </div>
-      <div className="grid md:grid-cols-3 md:grid-rows-3 md:gap-0 lg:grid-cols-3 lg:grid-rows-3 lg:gap-10">
+      <div className="grid md:grid-cols-3 md:grid-rows-3 md:gap-0 lg:grid-cols-3 lg:grid-rows-3 lg:gap-10 lg:absolute">
         <div className="md:col-start-2 lg:col-start-1 lg:row-start-2">
           <Card {...cards[0]} /> {/** verde */}
         </div>
