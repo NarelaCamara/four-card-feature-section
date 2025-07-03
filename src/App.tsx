@@ -24,17 +24,17 @@ function App() {
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
-      <div className="grid grid-cols-3 grid-rows-3 gap-0 ">
-        <div className="md:col-start-2">
+      <div className="grid md:grid-cols-4 md:grid-rows-3 gap-0">
+        <div className=" md:col-start-2">
           <Card {...card} />
         </div>
-        <div className=" md:row-start-2 ">
+        <div className=" md:col-start-1 md:row-start-2 md:relative md:left-[5rem]">
           <Card {...card} />
         </div>
-        <div className=" md:col-start-3 row-start-2">
+        <div className="md:col-start-3 md:row-start-2 md:relative md:right-[5rem]">
           <Card {...card} />
         </div>
-        <div className=" md:col-start-2 row-start-3">
+        <div className="md:col-start-2 md:row-start-3">
           <Card {...card} />
         </div>
       </div>
