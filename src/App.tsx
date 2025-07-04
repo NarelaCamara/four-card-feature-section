@@ -2,33 +2,36 @@ import { useState } from "react";
 import "./App.css";
 import { Card } from "./components/card";
 import home from "./assets/icon-homepage.svg";
+import software from "./assets/icon-software.svg";
+import idea from "./assets/Icon-idea.svg";
+import search from "./assets/icon-search.svg";
 import { colors } from "./utils";
 
 function App() {
   const [cards] = useState([
     {
       title: "Supervisor",
-      color: colors[0],
-      text: "Monitors activity to identify project roadblocks",
-      icon: home,
-    },
-    {
-      title: "Supervisor",
       color: colors[1],
       text: "Monitors activity to identify project roadblocks",
-      icon: home,
+      icon: search,
     },
     {
-      title: "Supervisor",
+      title: "Team Builder",
       color: colors[2],
-      text: "Monitors activity to identify project roadblocks",
+      text: "Scans our talent network to create the optimal team for your project",
       icon: home,
     },
     {
-      title: "Supervisor",
+      title: "Calculator",
+      color: colors[0],
+      text: "Uses data from past projects to provide better delivery estimates",
+      icon: software,
+    },
+    {
+      title: "Karma",
       color: colors[3],
-      text: "Monitors activity to identify project roadblocks",
-      icon: home,
+      text: "Regularly evaluates our talent to ensure quality",
+      icon: idea,
     },
   ]);
 
